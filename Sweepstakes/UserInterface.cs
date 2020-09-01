@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,9 +13,10 @@ namespace Sweepstakes
 
 
         public static void ContestantDetails(Contestant contestant)
-        {
-            int contestantNumber;
-            int totalCount;
+        {            
+
+            
+
             Console.WriteLine("What is your First Name:");
             contestant.firstName = Console.ReadLine();
             Console.WriteLine("What is your Last Name");
@@ -22,11 +24,7 @@ namespace Sweepstakes
             Console.WriteLine("What is your Email Address");
             contestant.emailAddress = Console.ReadLine();
 
-            
-            for (contestantNumber = 0; contestantNumber < totalCount; contestantNumber++)
-            {
-                contestantNumber = contestant.registrationNumber;
-            }
+           
 
 
         }
