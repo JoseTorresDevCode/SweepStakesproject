@@ -27,8 +27,12 @@ namespace Sweepstakes
             totalContestantCount.Add(registeredNumber, contestant);
         }
 
-        public int PickContestWinnner()  
+        public Contestant PickWinner()  
         {
+            Random rand = new Random();
+            int winnerKey = rand.Next(1, totalContestantCount.Count + 1);
+            return totalContestantCount[winnerKey];
+
 
         }
 

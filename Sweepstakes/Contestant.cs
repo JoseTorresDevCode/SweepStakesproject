@@ -8,7 +8,7 @@ namespace Sweepstakes
 {
     public class Contestant
     {
-        
+
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string emailAddress { get; set; }
