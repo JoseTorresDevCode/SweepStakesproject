@@ -36,7 +36,7 @@ namespace Sweepstakes
 
         }
 
-        public void PrintContestantInfo()
+        public void PrintContestantInfo(Contestant contestant)
         {
 
         }
