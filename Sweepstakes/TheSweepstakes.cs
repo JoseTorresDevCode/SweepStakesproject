@@ -38,7 +38,7 @@ namespace Sweepstakes
 
         public void PrintContestantInfo(Contestant contestant)
         {
-
+            UserInterface.ContestantDetails(contestant);
         }
     }
 }
